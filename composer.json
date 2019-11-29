@@ -1,0 +1,32 @@
+{
+    "name": "ashishnimrot/website",
+    "description": "Testing",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^7.0@dev",
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ashishnimrot\\Website\\" : "src"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "Ashishnimrot\\Website\\Providers\\WebsiteServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashish Nimrot",
+            "email": "ashishnimrot@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
