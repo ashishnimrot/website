@@ -3,7 +3,7 @@
     "description": "Testing",
     "type": "library",
     "require": {
-        "illuminate/support": "^6.2.0@dev",
+        "illuminate/support": "^6.2",
         "php": "^7.2"
     },
     "require-dev": {
